@@ -175,7 +175,7 @@ nav ul li a {
 
 /* Main sec-2 started */
 
-.sec-2{
+.sec-2 {
     margin-bottom: 130px;
 }
 
@@ -218,16 +218,103 @@ nav ul li a {
     font-weight: 400;
     line-height: 28px;
 }
-.carts{
+
+.carts {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
-.cart-1{
+
+.cart-1 {
     border: 1px solid;
     padding: 30px 30px;
     background-color: #FFF;
     border: none;
     border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px  rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Section 3 started */
+#sec3-heading {
+    color: #181818;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 130px;
+}
+
+.block-h {
+    color: #474747;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.prgrm {
+    margin-bottom: 10px;
+    color: #474747;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.uni {
+    margin-bottom: 20px;
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.skills {
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 558px;
+    height: 1px;
+    background-color: #D1D1D1;
+    margin-bottom: 30px;
+}
+
+.resume-history {
+    display: flex;
+    margin: 113px 230px 50px;
+    gap: 20px;
+}
+
+.sec3-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 10px 12px;
+    gap: 5px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    margin: auto;
+    border: none;
+    margin-bottom: 113px;
+}
+
+.btn-img {
+    height: 30px;
+    width: 30px;
+}
+
+.only-btn {
+    color:black;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+
 }
