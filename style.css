@@ -311,7 +311,81 @@ hr {
 }
 
 .only-btn {
-    color:black;
+    color: black;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* Footer started */
+footer {
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 130px;
+}
+
+#foot-head {
+    color: #181818;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#foot-para {
+    color: #474747;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.foot-icon {
+    display: flex;
+    gap: 24px;
+}
+
+#form-head {
+    margin-bottom: 28px;
+}
+
+.inp-1 {
+    display: block;
+    padding: 0px 0px 0px 30px;
+    min-width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFF;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.text-a {
+    padding: 18px 0px 0px 30px;
+    min-width: 461px;
+    border-radius: 5px;
+    background-color: #FFF;
+    margin-bottom: 24px;
+    border: none;
+    margin-bottom: 24px;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: start;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 12px 24px;
+    border: none;
+    margin-bottom: 113px;
+}
+
+form h1 {
+    color: #FFF;
     text-align: center;
     font-family: "Open Sans";
     font-size: 20px;
